@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+    
+}
+
+/*  Scroll Bar  */
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: rgba(255, 253, 253, 0.22);
+}
+::-webkit-scrollbar-thumb {
+    background: #F4D561;
+    border-radius: 12px;
+    height:65px;
+    transition: all 0.3s ease;
+}
+.navbar
+{    position: absolute !important;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+    width: 270px !important;
+    /* height: 5px !important; */
+    top: 0 !important;
+    left: 57px !important;
+}
+body{
+    position: relative;
+    background: rgba(30, 221, 248, 0.15) !important;
+}
+
+.profileimage
+{
+position: absolute;
+width: 110px;
+height: 110px;
+left: 129px;
+top: 75px;
+border-radius:55px;
+background: #FFFEFE;
+z-index: 1;
+}
+/* .topbar.sticky
+{
+    position: absolute;
+    width: 1118px;
+    height: 50px;
+    left: 395px;
+    top: 5px;
+
+    background: rgba(15, 94, 187, 0.82);
+    border-radius: 11px;
+} */
+
+.box{
+    position: absolute;
+    width: 384px;
+    height: 100vh;
+    left: 0px;
+    top: 0px;
+    background: rgba(15, 94, 187, 0.82);
+}
+.text{
+    position:absolute;
+    top:65px;
+    left:38px;
+    color: white;
+    height: 10vh;
+    width: 20vw;
+    text-align: center;
+    font-size: xx-large;
+    z-index: 1;
+}
+.description .typekar{
+    position: absolute;
+    z-index: 1;
+    width: 19vw;
+    height: 6vh;
+    top:125px;
+    left:45px;
+}
+.Searchroom .searchnewroom{
+    position: absolute;
+    z-index: 1;
+    width: 19vw;
+    height: 6vh;
+    top:125px;
+    left:45px;
+}
+.create
+{
+    position: absolute;
+    z-index: 1;
+    width: 5vw;
+    height: 6vh;
+    top:190px;
+    left:145px;
+}
+
+.users
+{
+    position: absolute;
+    width: 340px;
+    height: 450px;
+    left: 19px;
+    top: 269px;
+    background: rgba(15, 94, 187, 0.82) !important;
+    overflow:hidden; 
+    overflow-y:scroll;
+
+}
+.ok
+{
+    position: absolute;
+    width: 76px;
+    height: 76px;
+    left: 1430px;
+    top: 669px;
+    cursor: pointer;
+    z-index: 1;
+}
+.oknewgrp
+{
+    position: absolute;
+    width: 76px;
+    height: 76px;
+    top: 6px;
+    left: 330px;
+    cursor: pointer;
+    z-index: 1;
+}
+input{
+    position: absolute;
+    width: 19vw;
+    height: 6vh;
+left: 32px;
+top: 210px;
+background: #F2F1F1;
+border-radius: 18.5px;
+text-align:left;padding-left:20px;font-size:18px;
+}
+.topbar
+{
+    position: absolute;
+    width: 1118px;
+    height: 50px;
+    left: 395px;
+    top: 5px;
+
+    background: rgba(15, 94, 187, 0.82);
+    border-radius: 11px;
+}
+.add
+{
+    z-index: 1;
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    cursor: pointer;
+}
+.Groups
+{
+    z-index: 1;
+    position: absolute;
+    top: 6px;
+    left: 330px;
+    padding-top:6px;
+    cursor: pointer;
+}
+.topbar h3
+{
+    
+    padding-left:25px;
+    font-size:40px;
+    color:white;
+
+   
+}
+#message
+{
+    position: absolute;
+width: 990px;
+height: 50px;
+left: 410px;
+top: 669px;
+text-align:left;padding-left:20px;font-size:20px;
+background: #F2F1F1;
+border-radius: 23px;
+}
+.chatting{
+    overflow: scroll;
+    overflow-x: hidden;
+    background: rgba(221, 249, 253, 1);
+    height: 81vh;
+    width: 74.9vw;
+    position: relative;
+    top: 57.3px;
+    left: 385px;
+    right: 138px;
+}
+.chatbox1{
+    background-color: rgba(178, 204, 233, 1);
+    width: 25vw;
+    margin: 20px;
+    padding-top:5px;
+    padding-left: 7px;
+    min-height: 5vh;
+    float: left;
+    clear: both;
+}
+.chatbox2{
+    margin: 20px;
+    background-color: rgba(178, 204, 233, 1);
+    min-height: 5vh;
+    width: 25vw;
+    padding-top:5px;
+    padding-left: 7px;
+    float: right;
+    clear: both;
+}
