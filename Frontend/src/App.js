@@ -1,18 +1,18 @@
 import './App.css';
-import Right from './components/Right'
-import Left from './components/Left'
-import List from './components/List'
-import Ok from './components/Ok';
-import Navbar from './components/Navbar';
-import Home from './components/Home';
-import AddGroup from './components/AddGroup';
+import Right from './components/javascript/Right'
+import Left from './components/javascript/Left'
+import List from './components/javascript/List'
+import Ok from './components/javascript/Ok';
+import Navbar from './components/javascript/Navbar';
+import Home from './components/javascript/Home';
+import AddGroup from './components/javascript/AddGroup';
 import React from "react";
 import {
   BrowserRouter as Router,
   Routes,
   Route
 } from "react-router-dom";
-import JoinGroup from './components/JoinGroup';
+import JoinGroup from './components/javascript/JoinGroup';
 
  function App() {
   return (
